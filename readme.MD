@@ -1,4 +1,4 @@
-## Cisco NexT UI for network topolopy
+## Cisco NeXt UI for network topolopy
 ####prepare the lab
 
   download NeXt UI zip file via [Cisco DevNet][1] and copy unzipped files to work space folder
