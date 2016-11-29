@@ -20,4 +20,5 @@
     
 #### developer may focus on background python to deal with logical issue
   
-    
+![Alt][2]
+[2]:/NeXt_UI.png "Pic"
