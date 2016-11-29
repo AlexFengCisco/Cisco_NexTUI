@@ -8,6 +8,6 @@
     modify nextapp.py topologydata object will change the topology
     
     @/data returns jsonity(topologydat)
-    javascript ajax call http://127.0.0.1:7778/data to get topology and draw a network topology
+    javascript ajax call http://127.0.0.1:7778/data to get remote topology data and draw a network topology
     
 #### developer may focus on background python to deal with logical issue
