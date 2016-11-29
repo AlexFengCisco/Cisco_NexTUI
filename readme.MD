@@ -1,8 +1,10 @@
 ## Cisco NexT UI for network topolopy
 ####prepare the lab
 
-  download NeXt UI zip file via [Cisco DevNet][1]
-  create nextapp.py  
+  download NeXt UI zip file via [Cisco DevNet][1] and copy unzipped files to work space folder
+  
+  create python script nextapp.py  in work space folder
+  
   or, git clone this repo 
   [1]:https://developer.cisco.com/fileMedia/download/025dc509-8f2a-474a-b6d8-75e73ecbd6ac
   
