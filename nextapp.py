@@ -75,14 +75,14 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def home():
     #return '<h1>Home</h1>'
-    text='''Alex_Controller '''
+    text='''Home index page '''
     print text
     return render_template('index.html',text=text)
 
 @app.route('/data', methods=['GET', 'POST'])
 def data():
     #return '<h1>Home</h1>'
-    text='''Alex_Controller '''
+    text='''Jason REST API provides data'''
     print text
     node_name="Alex1111"
     return  jsonify(topologyData02)

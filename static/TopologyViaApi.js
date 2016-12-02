@@ -12,9 +12,11 @@
                     theme: 'green',
                     identityKey: 'id',
                     data: '{#topologyData}',
+                    width: 700,
+                    height: 700,
                     nodeConfig: {
                         iconType: "model.device_type",
-                        label: "model.label"
+                        label: "model.name"
                     }
                 }
             }
