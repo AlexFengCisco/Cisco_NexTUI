@@ -82,7 +82,7 @@ def home():
 @app.route('/data', methods=['GET', 'POST'])
 def data():
     #return '<h1>Home</h1>'
-    text='''Jason REST API provides data'''
+    text='''REST API provides JASON topology data '''
     print text
     node_name="Alex1111"
     return  jsonify(topologyData02)
