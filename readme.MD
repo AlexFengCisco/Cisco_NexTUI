@@ -18,7 +18,7 @@
     @/data returns jsonity(topologydat)
     javascript ajax call http://127.0.0.1:7778/data to get remote topology data and draw a network topology
     
-#### developer may focus on background python to deal with logical issue
+#### developer may focus on background python to deal with logical issue....
   
 ![Alt][2]
 [2]:/NeXt_UI.png "Pic"
