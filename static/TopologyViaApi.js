@@ -31,7 +31,8 @@
             },
             loadRemoteData: function() {
                 // CAUTION you must resolve the cross-domain problem in you own environment!
-                var URL_TOPOLOGY = '{{text}}';
+                //var URL_TOPOLOGY = '{{text}}';
+                var URL_TOPOLOGY = 'http://127.0.0.1:7778/data';
                 $.ajax({
                     url: URL_TOPOLOGY,
                     success: function(data) {
