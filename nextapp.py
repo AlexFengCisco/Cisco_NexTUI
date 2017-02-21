@@ -1,3 +1,10 @@
+'''
+Created on Jan 21, 2017
+
+@author: AlexFeng
+'''
+
+
 import paramiko
 import time
 from flask import Flask,render_template
@@ -7,7 +14,7 @@ import requests
 import json
 from flask.json import jsonify
 from scipy.optimize._tstutils import methods
-import copy
+import copy  
 import base64
 
 node1="Test1"
