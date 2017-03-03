@@ -16,6 +16,9 @@ from flask.json import jsonify
 from scipy.optimize._tstutils import methods
 import copy  
 import base64
+import random
+
+
 
 node1="Test1"
 
@@ -2498,8 +2501,11 @@ def home():
     Node_dict={}
 
     node_count=0
-    node_x=120
-    node_y=120
+    node_x_low=100
+    node_x_up=300
+    node_y_low=100
+    node_y_up=300
+    
     Resault_json=json.loads(Result)
 #print type(Resault_json)    #type dict
     Result_Link_state_Routes=Resault_json["bgp-linkstate:linkstate-routes"]["linkstate-route"]
@@ -2517,8 +2523,8 @@ def home():
             print "OSPF ID"+str(i["node-descriptors"]["ospf-node"]["ospf-router-id"])
             print "IP address"+i["attributes"]["node-attributes"]["ipv4-router-id"]
             node_count=node_count+1
-            node_x=node_x+30
-            node_y=node_y+20
+            node_x=random.randint(node_x_low,node_x_up)           
+            node_y=random.randint(node_y_low,node_y_up)
             Node_dict[i["attributes"]["node-attributes"]["ipv4-router-id"]]=str(node_count)
             node["id"]=node_count
             node["name"]=i["attributes"]["node-attributes"]["ipv4-router-id"]
