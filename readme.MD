@@ -19,6 +19,7 @@
     javascript ajax call http://127.0.0.1:7778/data to get remote topology data and draw a network topology
     
 #### developer may focus on background python to deal with logical issue....
+#### important ! make sure all topology link has ospf network point-to-point , no extra code to handle psedunode so far....
   
 ![Alt][2]
 [2]:/NeXt_UI.png "Pic"
