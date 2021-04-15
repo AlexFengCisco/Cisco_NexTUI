@@ -1,5 +1,5 @@
 ## Cisco NeXt UI for network topolopy
-####prepare the lab
+#### prepare the lab
 
   download NeXt UI zip file via [Cisco DevNet][1] and copy unzipped files to work space folder
   
@@ -21,5 +21,4 @@
 #### developer may focus on background python to deal with logical issue....
 #### important ! make sure all topology link has ospf network point-to-point , no extra code to handle psedunode so far....
   
-![Alt][2]
-[2]:/NeXt_UI.png "Pic"
+![Alt][2][2]:/NeXt_UI.png "Pic"
